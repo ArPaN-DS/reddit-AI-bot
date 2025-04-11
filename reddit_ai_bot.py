@@ -13,9 +13,9 @@ Original file is located at
 import praw
 
 reddit = praw.Reddit(
-    client_id='cEnNHKkfeEhnKpB-RjWnWg',
-    client_secret='midPmtoH4ByTgpX6IUk8JZ_ESiTp7Q',
-    username='Proud-Intern6489',
+    client_id='cEnNHKkfeEhnKpB-BCWnWg',
+    client_secret='midPmtoH4ByTgpX6IBC8JZ_ESiTp7Q',
+    username='Proud-xyz',
     password='Arpan@143',
     user_agent='AI Bot for Reddit'
 )
@@ -27,7 +27,7 @@ for post in subreddit.hot(limit=5):
 import openai
 
 # Set up OpenAI API key
-openai.api_key = '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'
+openai.api_key = 'xyz'
 
 def generate_ai_response(comment_text):
     response = openai.Completion.create(
