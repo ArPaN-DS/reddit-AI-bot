@@ -16,7 +16,7 @@ reddit = praw.Reddit(
     client_id='cEnNHKkfeEhnKpB-BCWnWg',
     client_secret='midPmtoH4ByTgpX6IBC8JZ_ESiTp7Q',
     username='Proud-xyz',
-    password='Arpan@143',
+    password='Password',
     user_agent='AI Bot for Reddit'
 )
 # Test the connection by printing the 5 hottest posts from a subreddit
